@@ -1,30 +1,65 @@
-# TypeScript & Styled Components Next.js example
+# Clone do Site do TikTok em Next.js com Styled Components
 
-This is a really simple project that show the usage of Next.js with TypeScript and Styled Components.
+Este é um projeto de clonagem do site do TikTok desenvolvido com Next.js e estilizado com Styled Components.
 
-## Deploy your own
+## Visão Geral
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript-styled-components)
+Este projeto tem como objetivo criar um clone do site do TikTok, incluindo funcionalidades como:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-styled-components&project-name=with-typescript-styled-components&repository-name=with-typescript-styled-components)
+- Exibição de vídeos em um formato semelhante ao TikTok.
+- Estilização com Styled Components para criar uma interface semelhante ao TikTok.
 
-## How to use it?
+## Tecnologias Utilizadas
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- [Next.js](https://nextjs.org/): Framework de React para renderização do lado do servidor.
+- [Styled Components](https://styled-components.com/): Biblioteca para estilização de componentes em React.
 
-```bash
-npx create-next-app --example with-typescript-styled-components with-typescript-styled-components-app
-# or
-yarn create next-app --example with-typescript-styled-components with-typescript-styled-components-app
-# or
-pnpm create next-app -- --example with-typescript-styled-components with-typescript-styled-components-app
-```
+## Instalação e Execução
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Siga os passos abaixo para executar a aplicação:
 
-## Notes
+1. Clone este repositório:
 
-This is an amalgamation of the 2 existing examples:
+   ```shell
+   git clone https://github.com/Snarloff/tiktok-clone.git
+   ```
 
-- [with-typescript](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
-- [with-styled-components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
+2. Navegue até o diretório do projeto:
+
+   ```shell
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências:
+
+   ```shell
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```shell
+   npm run dev
+   ```
+
+5. Acesse a aplicação em seu navegador em `http://localhost:3000`.
+
+## Imagem do Projeto
+
+![Imagem do Projeto](https://i.imgur.com/46Qj8qZ.png)
+
+## Uso e Personalização
+
+- A aplicação exibirá vídeos e conteúdo conforme definidos em seu código e estilização. Personalize o conteúdo e a interface de acordo com suas preferências.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga as diretrizes de contribuição e envie um pull request.
+
+## Problemas e Sugestões
+
+Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, por favor, abra uma issue neste repositório.
+
+---
+
+Agradecemos por visitar este repositório e por seu interesse no projeto de clone do site do TikTok em Next.js com Styled Components. Esperamos que este projeto seja útil e educativo para outros desenvolvedores interessados em criar aplicativos semelhantes.
